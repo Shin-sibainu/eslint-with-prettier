@@ -1,0 +1,8 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "prettier"] //この記述で、ESLint のフォーマット関連のルールが全て無効になる。
+}
