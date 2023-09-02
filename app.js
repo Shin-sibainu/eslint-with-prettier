@@ -2,6 +2,7 @@
 //https://prettier.io/docs/en/options.html
 // export PATH=$PATH:./node_modules/.bin
 // prettier app.js --write
+// npx husky@6.0.0 add .husky/pre-commit "lint-staged"
 
 class Person {
   constructor(name) {
@@ -19,7 +20,7 @@ const hoge = (message) => {
   console.log(message);
 };
 
-// hoge(new Person('Person').name);
+hoge(new Person('Person').name);
 
 const fooBar = (a, b, c) => {
   console.log(a);
