@@ -1,0 +1,12 @@
+npm install husky@6.0.0 lint-staged@11.0.0 --save-dev
+npx husky@6.0.0 install
+npm set-script prepare "husky install"
+npx husky@6.0.0 add .husky/pre-commit "lint-staged"
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+
+export PATH=$PATH:./node_modules/.bin   //prettierコマンドを実行できるようにするため、以下のように PATH を通す。

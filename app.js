@@ -1,4 +1,5 @@
 //https://qiita.com/soarflat/items/06377f3b96964964a65d
+//https://typescriptbook.jp/tutorials/eslint
 //https://prettier.io/docs/en/options.html
 // export PATH=$PATH:./node_modules/.bin
 // prettier app.js --write

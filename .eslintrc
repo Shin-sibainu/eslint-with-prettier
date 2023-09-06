@@ -4,5 +4,9 @@
         "browser": true,
         "es6": true
     },
-    "extends": ["eslint:recommended", "prettier"] //この記述で、ESLint のフォーマット関連のルールが全て無効になる。
+    "extends": ["eslint:recommended", "prettier"],//この記述で、ESLint のフォーマット関連のルールが全て無効になる。
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    } 
 }
